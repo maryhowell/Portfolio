@@ -45,16 +45,14 @@ group :development do
   gem 'spring'
 end
 
-
 gem 'devise'
 gem 'pundit'
-gem 'twitter-bootstrap-rails'
-gem 'bootstrap_form'
 gem 'quiet_assets'
+gem 'httparty'
+
+
 group :development, :test do
   gem 'pry-rails'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
-
-gem 'httparty'
