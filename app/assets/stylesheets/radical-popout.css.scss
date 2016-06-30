@@ -23,8 +23,8 @@
   100% {
     transform: rotate(0); top: 33%;
   }
-
 }
+
 @keyframes getcrossedneg {
   45% {
     transform: rotate(0); top: 60%;
@@ -36,6 +36,7 @@
     transform: rotate(-45deg); top: 45%;
   }
 }
+
 @font-face {
   font-family: "SSSocialCircle";
   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ss-social-circle.woff') format('woff');
@@ -59,15 +60,15 @@
 }
 nav {
   position: absolute;
-  left: 43%;
-  top: 33%;
+  left: -3%;
+  top: 13%;
   width: 7rem;
   height: 7rem;
   z-index: initial;
   line-height: 7rem;
   border-radius: 50%;
   transition: .3s;
-  background: #f00;
+  background: #163F16;
   outline: none;
   // a very bad idea to set outline to none, but done here to tidy up the example.
 
@@ -112,7 +113,7 @@ nav {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  background: red;
+  background: #184918;
   text-align: center;
   line-height: 1.5;
   color: #fff;
