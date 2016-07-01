@@ -14,26 +14,36 @@
  *= require_self
  */
 
- /*@font-face {
-   font-family: "Josefin Sans", helvetica;
-   src: url('http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext');
-   font-weight:normal;
-   font-style: normal;
-
- }*/
 
  body {
-   background-size: cover;
+   /*background-size: cover;*/
    background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
  }
 
  .name {
    position: relative;
-   color:white;
-   font-family: helvetica;
+   color:black;
+   font-family: "Josefin Sans";
    top: 20px;
-   left: 1150px;
+   left: 1100px;
+   height: 40px;
+   font-size: 25px;
  }
+
+ .shortdescript {
+   position: relative;
+   left: 1025px;
+   color:black;
+   font-family: "Josefin Sans";
+   top: 45px;
+   font-size: 20px;
+
+ }
+
+
 
 
 
