@@ -70,11 +70,14 @@ nav {
   transition: .3s;
   background: #8A7B96;
   outline: none;
+  z-index: 1;ss-icon closed
   // a very bad idea to set outline to none, but done here to tidy up the example.
 
   &:hover, &:focus {
     background: #333;
   }
+
+
   &:before, &:after, > span {
       position: absolute;
       left: 27%;
@@ -124,7 +127,7 @@ nav {
   left: 1rem;
  top: 1rem;
  transition: .4s;
- z-index: -1;
+ z-index: 2;
   &:hover, &:focus {
     background-color: #000;
   }
