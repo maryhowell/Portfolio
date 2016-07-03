@@ -49,6 +49,8 @@ gem 'devise'
 gem 'pundit'
 gem 'quiet_assets'
 gem 'httparty'
+gem 'omniauth'
+gem 'omniauth-github'
 
 
 group :development, :test do
