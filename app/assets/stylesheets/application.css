@@ -29,13 +29,32 @@
 
  .name {
    position: relative;
-   color:white;
+   color:black;
    font-family: helvetica;
    top: 20px;
-   left: 1150px;
+   left: 750px;
  }
 
+ #aboutme {
+ 	height: 110vh;
+ 	padding-top: 50px;
+ 	text-align: center;
+ 	background: #f7f7f7;
+ 	position: relative;
+ 	top: 943px;
+ }
 
+ #aboutme h2 {
+ 	letter-spacing: 12px;
+ 	font-size: 3em;
+ 	margin-bottom: 200px;
+ 	margin-top: 100px;
+ }
+
+ #aboutme h3 {
+ 	line-height: 40px;
+ 	vertical-align: middle;
+ }
 
 
 /*other stuff*/
