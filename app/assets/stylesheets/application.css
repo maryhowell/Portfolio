@@ -36,7 +36,7 @@
  }
 
  #aboutme {
- 	height: 110vh;
+ 	height: 170vh;
  	padding-top: 50px;
  	text-align: center;
  	background: #f7f7f7;
@@ -94,8 +94,7 @@ h2 {
 .skills-bar-container label {
 	color: white;
 	position: relative;
-	font-size: .96em;
-	font-weight: 300;
+	font-size: 1.4em;
 }
 
 .skills-bar-container .percent {
@@ -140,7 +139,7 @@ label {
 
 
 .progressred {
-	background-color: #ff3d2e;
+	background-color: #7CA299;
 }
 
 @keyframes progress-html {
@@ -148,7 +147,7 @@ label {
 		width: 0%;
 	}
 	100% {
-		width: 100%;
+		width: 60%;
 	}
 }
 
@@ -157,7 +156,7 @@ label {
 		width: 0%;
 	}
 	100% {
-		width: 90%;
+		width: 40%;
 	}
 }
 
@@ -166,7 +165,7 @@ label {
 		width: 0%;
 	}
 	100% {
-		width: 50%;
+		width: 45%;
 	}
 }
 
@@ -175,33 +174,6 @@ label {
 		width: 0%;
 	}
 	100% {
-		width: 55%;
-	}
-}
-
-@keyframes progress-php {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 35%;
-	}
-}
-
-@keyframes progress-nodejs {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 25%;
-	}
-}
-
-@keyframes progress-wordpress {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 65%;
+		width: 50%;
 	}
 }

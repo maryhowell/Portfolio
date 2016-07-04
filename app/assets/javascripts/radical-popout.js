@@ -21,7 +21,33 @@ $(document).ready(function() {
   });
 
 
-// skill set
+// instafeed
+
+var userFeed = new Instafeed({
+  get: 'user',
+  userId: '77c62839bb414e9b947f13c872894d0a',
+  accessToken: '58277269686b45a5a1f6aa60d0824d29',
+  //limit: 6,
+  sortBy: 'random',
+  resolution: 'standard_resolution',
+  template: '<a class="l-fluidbox" data-aos="zoom-in-up" data-aos-offset="150" href="{{image}}"><img src="{{image}}" /></a>',
+  after: function() {
+    var images = $("#instafeed a").fluidbox();
+        AOS.init();
+    },
+});
+userFeed.run();
+
+
+
+
+
+
+
+
+
+
+
 
 // Skills Bars Animation
 setTimeout(function() {
