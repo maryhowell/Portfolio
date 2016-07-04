@@ -18,31 +18,15 @@ $(document).ready(function() {
     if (e.keyCode === 13) {
       clickSet();
     }
-  });
 
+// Instagram feed
 
-// instafeed
-//
-// var userFeed = new Instafeed({
-//   get: 'user',
-//   userId: '77c62839bb414e9b947f13c872894d0a',
-//   accessToken: '58277269686b45a5a1f6aa60d0824d29',
-//   //limit: 6,
-//   sortBy: 'random',
-//   resolution: 'standard_resolution',
-//   template: '<a class="l-fluidbox" data-aos="zoom-in-up" data-aos-offset="150" href="{{image}}"><img src="{{image}}" /></a>',
-//   after: function() {
-//     var images = $("#instafeed a").fluidbox();
-//         AOS.init();
-//     },
-// });
-// userFeed.run();
 
 $(function(){
-  var accessToken = '58277269686b45a5a1f6aa60d0824d29';
+  var accessToken = '190735197.1677ed0.9933a619f0c04b708bf8b0fb50784bf6';
   $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
     $.each(insta.data,function (photos,src) {
-      if ( photos === 20 ) { return false; }
+      if ( photos === 6 ) { return false; }
       $('<a href="'+src.link+'" class="post">'+
         '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
         '<ul>'+
@@ -53,10 +37,6 @@ $(function(){
     });
   });
 });
-
-
-
-
 
 
 

@@ -124,7 +124,7 @@ nav {
   left: 1rem;
  top: 1rem;
  transition: .4s;
- z-index: auto;
+ z-index: 1;
   &:hover, &:focus {
     background-color: #000;
   }
