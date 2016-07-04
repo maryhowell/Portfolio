@@ -179,6 +179,14 @@ label {
 }
 
 /*git div*/
+.gitactivity {
+  height: 100vh;
+  padding-top: 50px;
+  text-align: center;
+  background: #f7f7f7;
+  position: relative;
+  opacity: 0.9;
+}
 
 
 
