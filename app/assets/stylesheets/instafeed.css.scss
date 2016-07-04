@@ -1,7 +1,9 @@
 .instafeed {
   // @extend %grp;
-  max-width: 60em;
+  max-width: 400px;
+  height: 400px;
   margin: 0 auto;
+  z-index: 3;
 
   &:hover {
     a {
