@@ -19,4 +19,23 @@ $(document).ready(function() {
       clickSet();
     }
   });
-})
+
+
+// skill set
+
+// Skills Bars Animation
+setTimeout(function() {
+  $('#html-percent').html('100%');
+}, 2600);
+
+setTimeout(function() {
+  $('#css-percent').html('60%');
+}, 3500);
+
+setTimeout(function() {
+  $('#javascript-percent').html('50%');
+}, 4200);
+
+setTimeout(function() {
+  $('#git-percent').html('70%');
+}, 4200);

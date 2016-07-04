@@ -45,7 +45,7 @@
   opacity: 0.9;
  }
 
- #aboutme h2 {
+h2 {
    font-family: helvetica;
  	letter-spacing: 12px;
  	font-size: 3em;
@@ -65,4 +65,143 @@
  }
 
 
-/*other stuff*/
+/*skill set*/
+
+.skills-section {
+	padding-bottom: 50px;
+	padding-top: 953px;
+}
+
+.skills-bar-container ul {
+	list-style: none;
+	padding: 25px 0;
+	width: 100%;
+}
+
+.skills-bar-container li {
+	background: white;
+	height: 5px;
+	margin-bottom: 45px;
+	padding-left: 0px;
+	position: relative;
+	width: 100%;
+}
+
+.skills-bar-container h1 {
+	margin-bottom: 50px;
+}
+
+.skills-bar-container label {
+	color: white;
+	position: relative;
+	font-size: .96em;
+	font-weight: 300;
+}
+
+.skills-bar-container .percent {
+	color: #1A1C1C;
+	font-size: .96em;
+	float: right;
+}
+
+.progressbar {
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	border-radius: 5px;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: both;
+}
+
+#progress-html {
+	animation-name: progress-html;
+	animation-delay: .7s;
+}
+
+#progress-css {
+	animation-name: progress-css;
+	animation-delay: 1.4s;
+}
+
+#progress-javascript {
+	animation-name: progress-javascript;
+	animation-delay: 2.1s;
+}
+
+#progress-git {
+	animation-name: progress-git;
+	animation-delay: 2.8s;
+}
+
+label {
+  font-family: helvetica;
+}
+
+
+.progressred {
+	background-color: #ff3d2e;
+}
+
+@keyframes progress-html {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes progress-css {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes progress-javascript {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes progress-git {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 55%;
+	}
+}
+
+@keyframes progress-php {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 35%;
+	}
+}
+
+@keyframes progress-nodejs {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 25%;
+	}
+}
+
+@keyframes progress-wordpress {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 65%;
+	}
+}

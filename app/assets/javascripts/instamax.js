@@ -13,7 +13,7 @@
    //GENERAL OPTIONS ------------------------------
 
    //Display square thumbnails or rectangular thumbnails
-   coverImage: 'http://mywebsite.com/photo.jpg',
+   coverImage: 'https://www.instagram.com/p/BGK_YF0AxlM/?taken-by=kittymeowmerz&hl=en',
 
    //Instamax Skin - white|grey|none
    skin: 'grey',
